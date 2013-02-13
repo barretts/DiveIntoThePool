@@ -1,0 +1,462 @@
+﻿body
+{
+    background-color: #1284d3;
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-repeat: repeat-y;
+    margin: 0;
+    padding: 0;
+    font-family: Sans-Serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000033;
+}
+
+#contentContainer a, #contentContainer a:link, #contentContainer a:visited,
+#footerContainer a, #footerContainer a:link, #footerContainer a:visited
+{
+    color: #0000EE;
+}
+
+hr
+{
+    color: #1284d3;
+    background-color: #1284d3;
+    border: solid 1px #1284d3;
+    height: 2px;
+    margin: 10px 0 10px 0;
+}
+
+.h-top
+{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.underline
+{
+    text-decoration: underline;
+}
+
+#pageContainer 
+{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#contentContainer
+{
+    padding: 20px;
+}
+
+#footerContainer
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form
+{
+    background-color: #ccffff;
+    padding: 0;
+    margin: 0;
+}
+
+.clearer
+{
+    clear: both;
+    height: 0px;
+    line-height: 0px;
+    font-size: 0px;
+}
+
+fieldset 
+{
+    border: 2px solid #1284d3;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+legend
+{
+    margin: 0 0 0 20px;
+    padding: 0 3px 0 3px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #000033;
+}
+
+.fieldSetContent
+{
+    margin: 10px;
+    line-height: 22px;
+}
+
+textarea
+{
+    font-family: Sans-Serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000033;
+}
+
+/* Menu */
+.navContainer
+{
+    height: 25px;
+}
+
+.navContainer ul
+{
+    padding: 0;
+    margin: 0;
+    background-color: #99ffff;
+    color: #fff;
+    float: left;
+    width: 100%;
+}
+
+.navContainer ul li 
+{
+    display: inline;
+}
+
+.navContainer ul li a
+{
+    padding: 0.2em 1em;
+    background-color: #33ccff;
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid #fff;
+    font-weight: bold;
+}
+
+.navContainer ul li a:hover
+{
+    background-color: #0066cc;
+    color: #fff;
+}
+
+.navContainer .right
+{
+    float: right;
+    border-left: 1px solid #fff;
+}
+
+.currentPage
+{
+    background-color: #0066cc !important;
+}
+
+/* two column */
+.twoColumn-wide
+{
+    width: 520px;
+}
+
+.twoColumn-thin
+{
+    width: 320px;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+/* Private Messages */
+#pmNav
+{
+    margin: 5px 0 5px 0;
+}
+
+#pmNav a
+{
+    padding: 0.2em 1em;
+    background-color: #33ccff;
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid #fff;
+    font-weight: bold;
+}
+
+.pmControls
+{
+    margin: 10px 0 10px 0;
+}
+
+.messages
+{
+    border-bottom: solid 1px #33ccff;
+    border-left: solid 1px #33ccff;
+    border-right: solid 1px #33ccff;
+}
+
+.messageRow
+{
+    border-top: solid 1px #33ccff;
+    height: 24px;
+}
+
+.messageRow:hover
+{
+    background-color: #33ffff;
+    cursor: pointer;
+}
+
+.messageRowOdd
+{
+    background-color: #99ffff;
+}
+
+.messageLink
+{
+    display: block;
+    text-decoration: none;
+    float: left;
+    padding: 2px 2px 3px 2px;
+    width: 890px;
+    cursor: pointer;
+    color: #000033;
+}
+
+.messageLink:hover
+{
+    background-color: #33ffff;
+}
+
+.messageCheck
+{
+    float: left;
+    padding: 2px;
+}
+
+.messageUser
+{
+    float: left;
+    width: 110px;
+    overflow: hidden;
+}
+
+.messageHeadline
+{
+    float: left;
+    width: 595px;
+    overflow: hidden;
+    padding-left: 5px;
+}
+
+.messageDatetime
+{
+    float: right;
+    width: 180px;
+    overflow: hidden;
+}
+
+.viewHeader
+{
+    margin: 5px 0 5px 0;
+}
+
+.viewMessage
+{
+    border: solid 1px #000033;
+    background-color: #FFF;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.read_icon
+{
+    /* icon image here */
+}
+
+.read_text
+{
+    font-weight: normal;
+}
+
+.unread_icon
+{
+    /* icon image here */
+}
+
+.unread_text
+{
+    font-weight: bold;
+}
+
+/* Search */
+.searchWidth
+{
+    width: 740px;
+}
+
+.searchResultRow
+{
+    margin-bottom: 10px;
+}
+
+.searchResultRow a
+{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    border-width: 2px;
+    border-color: #33ccff #0066cc #0066cc #33ccff;
+    border-style: solid;
+    height: 100px;
+    background-color: #ccffff;
+}
+
+.searchResultRow a:hover
+{
+    background-color: #99ffff;
+    border-color: #0066cc #33ccff #33ccff #0066cc;
+}
+
+.searchResultDetails
+{
+    color: #000033;
+}
+
+.searchResultImage
+{
+    float: left;
+    width: 120px;
+    height: 100px;
+    margin-right: 5px;
+}
+
+.search-quote
+{
+    font-size: 20px;
+}
+
+.search-description
+{
+    width: 600px;
+    height: 40px;
+    float: left;
+    overflow: hidden;
+    padding: 0;
+}
+
+.search-headline
+{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.search-distance
+{
+    float: right;
+}
+
+.search-end
+{
+    width: 400px;
+}
+
+.prev, .next
+{
+    width: 120px;
+    height: 25px;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #33ccff;
+    line-height: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #33ccff;
+}
+
+.prev:hover, .next:hover
+{
+    background-color: #0066cc;
+    color: #0066cc;
+}
+
+.prev
+{
+    background-image: url('../images/arrows.gif');
+}
+
+.next
+{
+    background-image: url('../images/arrows.gif');
+    background-position: center -25px;
+}
+
+.profileImages
+{
+    width: 120px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.profileImages img
+{
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.profileImages ul, .profileImages li
+{
+    padding: 0;
+    margin: 0;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.display-title
+{
+    font-weight: bold;
+}
+
+.display-headline
+{
+    font-style: italic;
+}
+
+.display-label, .edit-label
+{
+    font-weight: bold;
+}
+
+.edit-block
+{
+    margin-bottom: 10px;
+}
+
+.fieldSetDisplayWidth
+{
+    width: 660px;
+    overflow: hidden;
+}
+
+.fieldSetLocationWidth
+{
+    width: 220px;
+}
+
+.fieldSetContentWidth
+{
+    width: 680px;
+    margin-right: 10px;
+}
+
+.fieldsetWidth
+{
+    width: 736px;
+    display: block;
+}

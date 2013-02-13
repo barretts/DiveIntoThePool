@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Welcome to the pool!</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="pageContainer">
+    <form id="form1" runat="server">
+    <div>
+    <img src="images/headerLogo.png" width="666" height="120" alt="Dive Into The Pool: Take A Dive Into The FREE Online Dating Pool" title="Dive Into The Pool: Take A Dive Into The FREE Online Dating Pool" />
+    </div>
+    <div id="contentContainer">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <asp:LoginView id="LoginView2" runat="server">
+        <AnonymousTemplate>
+            <h3 class="h-top"><a href="Register.aspx">Click here to register now!</a></h3>
+        </AnonymousTemplate>
+    </asp:LoginView>
+    </form>
+    </div>
+</body>
+</html>
